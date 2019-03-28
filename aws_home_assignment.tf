@@ -1,6 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
-	profile    = "rotem_inc"
+	access_key = "${var.access_key}"
+	secret_key = "${var.secret_key}"
 	region     = "${var.region}"
 }
 
