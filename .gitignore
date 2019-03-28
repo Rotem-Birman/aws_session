@@ -1,0 +1,17 @@
+#Ignore state files
+*.tfstate*
+
+#Ignore tfvars files
+*.tfvars
+
+#Ignore terrafrom exe
+terraform
+*.terraform
+
+#Ignore out files
+stage
+prod
+sim
+
+#Ignore trial folder
+trial/
