@@ -12,8 +12,7 @@ type    = "list"
 variable "private_subnet" {
 type    = "list"
 }
-
-variable "count" {2}
+variable "count" {}
 
 variable "pr_key_path" {}
 
