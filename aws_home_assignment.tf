@@ -1,7 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
 	region     = "${var.region}"
-	shared_credentials_file = "/home/ubuntu/.aws/credentials"
+	profile = "${var.profile}"
 }
 
 # Create a VPC

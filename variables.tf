@@ -1,6 +1,7 @@
 # Var file for AWS deployment
-
 variable "region" {}
+
+variable "profile" {}
 
 variable "ubuntu_ami" {}
 
