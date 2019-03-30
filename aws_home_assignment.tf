@@ -1,8 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
-	access_key = "${var.access_key}"
-	secret_key = "${var.secret_key}"
 	region     = "${var.region}"
+	shared_credentials_file = "/home/ubuntu/.aws/credentials"
 }
 
 # Create a VPC
