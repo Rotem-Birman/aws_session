@@ -1,9 +1,5 @@
 # Var file for AWS deployment
 
-variable "access_key" {}
-
-variable "secret_key" {}
-
 variable "region" {}
 
 variable "ubuntu_ami" {}
