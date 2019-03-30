@@ -5,8 +5,6 @@ variable "secret_key" {}
 
 variable "region" {}
 
-variable "profile" {}
-
 variable "ubuntu_ami" {}
 
 variable "public_subnet" {
